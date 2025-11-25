@@ -92,7 +92,7 @@ lm.predict_next(ctx, top_k=3)
 
 ### Clone the repo
 
-   - git clone <your-repo-url>
+   #### git clone https://github.com/Golu09846/ngram-language-model/blob/main/ngram-language-model.py
 
 
 ### Navigate to folder
