@@ -35,16 +35,16 @@ This project uses statistical NLP methods (no deep learning) to predict the next
    - 3-grams (triplets)
 
 3. **Count Frequencies**  
-   Each n-gram is counted to build probability tables.
+   - Each n-gram is counted to build probability tables.
 
 4. **Predict Next Word**  
-   For a given context sentence, the model finds the most probable next word.
+   - For a given context sentence, the model finds the most probable next word.
 
 ---
 
 ## 🔄 Project Flowchart
 
-Below is the visual flow of how the prediction system works:
+   - Below is the visual flow of how the prediction system works:
 
 ![Flowchart](flowchart.png)
 
@@ -76,43 +76,43 @@ lm.predict_next(ctx, top_k=3)
 ## 📊 Dataset
 
 ### The model uses a small training dataset stored in:
-training_sentences.txt
+   - training_sentences.txt
 
 ## 🛠️ Technologies Used
 
-Python
-
-Regex
-
-Collections (Counter, defaultdict)
-
-Math (log & exp for probability)
+   -  Python
+   - 
+   -  Regex
+   - 
+   -  Collections (Counter, defaultdict)
+   - 
+   -  Math (log & exp for probability)
 
 ## 🚀 How to Run
 
 ### Clone the repo
 
-#### git clone <your-repo-url>
+   - git clone <your-repo-url>
 
 
 ### Navigate to folder
 
-#### cd Ngram-Model
+   - cd Ngram-Model
 
 
 ### Run the model
 
-#### python ngram-language-model.py
+   - python ngram-language-model.py
 
-###🙌 Author
+## 🙌 Author
 
-Abdullah
-Data Science Intern @ AnalyticShala
-Trainer: Faizan Ansari
+### Abdullah
+### Data Science Intern @ AnalyticShala
+### Trainer: Faizan Ansari
 
-### ⭐ Contribute
+## ⭐ Contribute
 
-Pull requests and improvements are welcome!
+### Pull requests and improvements are welcome!
 ## 📄 License
 
-This project is open-source under the MIT License.
+### This project is open-source under the MIT License.
