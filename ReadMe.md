@@ -58,7 +58,7 @@ lm = NgramLM(n=3, alpha=0.5)
 lm.fit(corpus)
 ctx = tokenize("The weather changed")
 lm.predict_next(ctx, top_k=3)
-
+```
 ## 📤 Example Output
 
 ==================== N-GRAM NEXT WORD PREDICTION ====================
